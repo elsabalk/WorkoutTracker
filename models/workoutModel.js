@@ -23,19 +23,19 @@ const WorkoutDetails = new Schema({
             required: true
           },
           weight: {
-            type: Number
+            type: Number,
             required: true
           },
           reps: {
-            type: Number
+            type: Number,
             required: true
           },
           sets: {
-            type: Number
+            type: Number,
             required: true
           },
           distance: {
-            type: Number
+            type: Number,
             required: true
           }
       }
