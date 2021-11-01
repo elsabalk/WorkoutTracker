@@ -1,7 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-//! require("./seeders/seed"); // Either npm run seed or keep this in here uncommented and it will run the seed
 
 const PORT = process.env.PORT || 3005;
 
@@ -23,7 +22,6 @@ mongoose.connect(
   }
 );
 
-//require(apiRoute)(app);
 require("./routes/frontendViewRoutes")(app);
 require("./routes/frontendApiRoutes")(app);
 
