@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const db = require('../models');
 
-mongoose.connect('https://localhost/workout', {
+mongoose.connect('mongodb://localhost/deep-thoughts', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
