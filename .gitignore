@@ -1,1 +1,4 @@
 /node_modules/
+/.vs/VSWorkspaceState.json
+/.vs/WorkoutTracker/v16/*.suo
+/.vs/slnx.sqlite
